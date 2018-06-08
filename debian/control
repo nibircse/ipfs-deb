@@ -1,0 +1,14 @@
+Source: go-ipfs
+Section: utils
+Priority: optional
+Maintainer: Aron Xu <happyaron.xu@gmail.com>
+Build-Depends: debhelper (>= 9),
+Standards-Version: 4.1.3
+Homepage: https://ipfs.io
+
+Package: ipfs
+Architecture: amd64
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: go-ipfs binary distribution
+ ipfs binary from go-ipfs binary distribution

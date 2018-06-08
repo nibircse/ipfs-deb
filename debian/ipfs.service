@@ -1,0 +1,10 @@
+[Unit]
+Description=IPFS
+
+[Service]
+Environment="IPFS_PATH=/var/lib/ipfs/node"
+ExecStart=/usr/bin/ipfs daemon --init --enable-gc
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
