@@ -1,3 +1,9 @@
+go-ipfs (0.4.15+2) unstable; urgency=medium
+
+  * d/compat: bump to v10
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Tue, 12 Jun 2018 23:17:05 +0800
+
 go-ipfs (0.4.15+1) unstable; urgency=medium
 
   * New version
