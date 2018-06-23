@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#DEBHELPER#
+
+if [ "purge" = "$1" ]; then
+    rm -rf /var/lib/ipfs
+fi
