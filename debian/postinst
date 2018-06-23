@@ -1,0 +1,18 @@
+#!/bin/sh
+#DEBHELPER#
+
+export IPFS_PATH=/var/lib/ipfs/node
+
+if [ "upgrade" = "$1" ]; then
+    systemctl stop ipfs.service
+    ipfs config Addresses.Gateway ''
+    systemctl start ipfs.service
+    #ipfs config profile apply server
+fi
+
+if [ "configure" = "$1" ] && [ ! -f "$IPFS_PATH/config" ]; then
+    #ipfs init --profile server >/dev/null 2>&1
+    ipfs init >/dev/null 2>&1
+    ipfs config Addresses.Gateway ''
+    systemctl start ipfs.service
+fi
