@@ -1,3 +1,10 @@
+go-ipfs (0.4.15+3) unstable; urgency=medium
+
+  * Remove files on purging the package
+  * Disable Gateway on installation and upgrades
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Sat, 23 Jun 2018 14:47:01 +0800
+
 go-ipfs (0.4.15+2) unstable; urgency=medium
 
   * d/compat: bump to v10
