@@ -1,13 +1,13 @@
 [Unit]
 Description=IPFS
+StartLimitBurst=1
+StartLimitIntervalSec=0
 
 [Service]
 Environment="IPFS_PATH=/var/lib/ipfs/node"
 ExecStart=/usr/bin/ipfs daemon --init --enable-gc
 Restart=always
 RestartSec=3
-StartLimitBurst=1
-StartLimitIntervalSec=0
 
 [Install]
 WantedBy=multi-user.target
