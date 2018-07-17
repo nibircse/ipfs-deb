@@ -1,3 +1,9 @@
+go-ipfs (0.4.16+1) unstable; urgency=medium
+
+  * Update to 0.4.16 binary
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Wed, 18 Jul 2018 02:25:25 +0800
+
 go-ipfs (0.4.15+5) unstable; urgency=medium
 
   * Fix Restart condition syntax
