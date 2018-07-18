@@ -16,6 +16,6 @@ if [ "configure" = "$1" ] && [ ! -f "$IPFS_PATH/config" ]; then
     systemctl stop ipfs.service
     #ipfs init --profile=server >/dev/null 2>&1
     ipfs init >/dev/null 2>&1
-    ipfs config Addresses.Gateway \'\'
+    ipfs config Addresses.Gateway ''
     systemctl start ipfs.service
 fi
