@@ -1,6 +1,7 @@
 go-ipfs (0.4.16+3) unstable; urgency=medium
 
   * Run with --migrate=true
+  * Remove debug message
 
  -- Aron Xu <happyaron.xu@gmail.com>  Wed, 01 Aug 2018 20:56:53 +0800
 
