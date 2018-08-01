@@ -1,3 +1,9 @@
+go-ipfs (0.4.16+3) unstable; urgency=medium
+
+  * Run with --migrate=true
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Wed, 01 Aug 2018 20:56:53 +0800
+
 go-ipfs (0.4.16+2) unstable; urgency=medium
 
   * Use '' as Gateway
