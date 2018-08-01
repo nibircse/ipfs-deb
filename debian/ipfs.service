@@ -6,7 +6,7 @@ Requires=local-fs.target
 
 [Service]
 Environment="IPFS_PATH=/var/lib/ipfs/node"
-ExecStart=/usr/bin/ipfs daemon --init --enable-gc
+ExecStart=/usr/bin/ipfs daemon --init --enable-gc --migrate=true
 Restart=always
 RestartSec=3
 
